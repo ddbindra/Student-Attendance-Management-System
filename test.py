@@ -12,9 +12,9 @@ app.config['SECRET_KEY'] = '6277c7d47f830250e33d86dd45d46651'
 
 
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'Dhruv'
-app.config['MYSQL_PASSWORD'] = 'Dhruv'
-app.config['MYSQL_DB'] = 'login'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = 'root'
+app.config['MYSQL_DB'] = 'student_attendance'
 
 mysql = MySQL(app)
 
